@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:500');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:600');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:700i');
+
+body {
+    background-color: #e8e6e3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    color: #010000;
+    font-weight: 500;
+    height:100%;
+    min-height:100%;
+}
+
+a,
+a:focus,
+a:active {
+    color: #1181d1;
+}
+
+a:hover {
+    color: #598cff;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: underline;
+    transition-duration: .1s;
+    transition-property: color, background-color;
+}
+
+img {
+    text-decoration: underline;
+    transition-duration: .1s;
+    transition-property: border-color;
+}
+
+hr {
+    margin: 20px 0;
+    color: #86abed; /*для IE */
+    background-color: #86abed; /*для Firefox, Opera, Safari*/
+    border: 0 none;
+    height: 1px; /* высота 1px IE, Firefox, Opera, Safari */
+    clear: both; /* для очистки, если тег идет после float елемента */
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 0;
+    font-weight: 500;
+    display: none;
+}
+
+h2 {
+    font-weight: 500;
+    margin: 0;
+    font-size: 1em;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 0.875em;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 15px 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.col{
+    display: inline-block;
+}
+
+.second-color {
+    color: #707070;
+    font-weight: 400;
+}
+
+.third-color {
+    color: #292725;
+}
+
+.mfp-counter {
+    display: none !important;
+}
+
+.owl-dots {
+    display: none !important;
+}
+
+.icon-item i {
+    margin-right: 10px;
+}
+
+#logo {
+    text-align: center;
+    padding: 3px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo img {
+    text-decoration: none;
+    max-height: 60px;
+    width: auto;
+    max-width: 100%;
+}
+
+#top-banner {
+    /*background: #444 url("/img/slaider.jpg") no-repeat 50% 50%;*/
+    background: #444 no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#top-banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background: #fefefe url("/img/bg.jpg") repeat;
+}
+
+#main .container {
+    padding-top: 50px;
+}
+
+footer .container {
+    padding-bottom: 20px;
+}
+
+.left-block > div {
+    padding-left: 10px;
+}
+
+.left-block hr {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#option {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.icon-item {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.icon-item .fa {
+    margin-right: 5px;
+}
+
+.advantage {
+    margin-left: 30px;
+}
+
+.advantage li {
+    font-size: 2em;
+    color: #474747;
+    line-height: 0.7;
+}
+
+.advantage li span {
+    font-size: 16px !important;
+    position: relative;
+    top: -5px;
+}
+
+#comfort .second-color {
+    color: #4c4c4c;
+}
+
+#comfort table {
+    margin: 20px 0;
+}
+
+#comfort table td {
+    vertical-align: top;
+}
+
+#comfort .icon-item {
+    display: table;
+}
+
+#comfort a {
+    display: block;
+    margin-top: 15px;
+}
+
+.date-select .col-left,
+.date-select .col-right {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.date-select .head{
+    padding: 20px 0;
+}
+
+.date-select .arrow,
+.date-select h4 {
+    display: inline-block;
+}
+
+.date-select .arrow {
+    padding: 3px 12px;
+    border: 1px solid #a4a4a4;
+    color: #a4a4a4;
+}
+
+.date-select .col-left .arrow {
+    margin-right: 17px;
+}
+
+.date-select .col-right .arrow {
+    margin-left: 17px;
+}
+
+.date-select .col-right .head {
+    text-align: right;
+}
+
+.date-select th,
+.date-select td{
+    text-align: center;
+}
+
+.date-select th {
+    color: #080707;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.date-select td {
+    border: 1px solid #a4a4a4;
+    color: #080707;
+    font-weight: 700;
+    width: 2em;
+    height: 2em;
+    font-size: 0.875em;
+}
+
+.date-select td.disabled {
+    color: #595555;
+    text-decoration: line-through;
+    font-weight: 400;
+    pointer-events: none;
+}
+
+.date-select td:not(.disabled):not(.empty) {
+    cursor: pointer;
+}
+
+.date-select td:not(.disabled):not(.empty):not(.active):hover,
+.date-select .arrow:hover {
+    background-color: #588bfe;
+    color: #fff;
+}
+
+.date-select td.empty {
+    border: none;
+}
+
+.date-select td.active {
+    color: #fff;
+    background-color: #1681cc;
+}
+
+#review h3 {
+    font-size: 1.125em;
+}
+
+#rating {
+    font-size: 0.875em;
+    margin-left: 15px;
+}
+
+#rating .rating-name span {
+    display: block;
+    margin-right: 20px;
+}
+
+#rating .rating-name span,
+#rating .rating-value {
+    padding: 5px 0;
+}
+
+.rating-value {
+    color: #1181d1;
+}
+
+#rating .col:first-child .col:nth-child(2) {
+    margin-right: 45px;
+}
+
+#review .review-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+#review .review-text .review-name {
+    color: #000;
+    margin-right: 15px;
+}
+
+#review .review-text .review-date {
+    font-size: 0.875em;
+    color: #6e6c6c;
+}
+
+#review .review-text p {
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.25;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#location .map {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border: 6px #fff solid;
+}
+
+#order {
+    border: 1px solid #a4a4a4;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    max-width: 270px;
+}
+
+#order a {
+    text-decoration: none;
+}
+
+#order hr {
+    margin: 10px 0;
+    color: #ababab; /*для IE */
+    background-color: #ababab; /*для Firefox, Opera, Safari*/
+}
+
+#order h3,
+#order label {
+    font-weight: 500;
+    margin: 0;
+}
+
+#order .price{
+    font-size: 1.25em;
+    color: #000;
+}
+
+#order .price span {
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+#order .price .rating-value {
+    font-size: 0.75em;
+}
+
+#order .date-range,
+#order .guest-select,
+#order .date-select,
+#order #phone-input{
+    border: 1px solid #a1a1a1;
+    text-align: center;
+    padding: 6px 3px;
+    font-size: 0.875em;
+    color: #221f1f;
+    margin: 10px 0;
+}
+
+#order #phone-input {
+    width: 100%;
+    background: transparent;
+}
+
+#order .date-range div,
+#order .guest-select a{
+    display: inline-block;
+}
+
+#order .date-range {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#order .date-range .from,
+#order .date-range .to {
+    cursor: pointer;
+    padding: 5px;
+    line-height: 1;
+    border-radius: 5%;
+}
+
+#order .date-range .active {
+    background-color: #37a2ef;
+    color: #fff;
+}
+
+#order .date-range i {
+    color: #515050;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+#order .guest-select {
+    font-size: 1em;
+}
+
+#order .guest-select a {
+    padding: 5px;
+    line-height: 0;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+}
+
+#order .guest-select a:hover {
+    color: #1181d1;
+}
+
+#order .guest-select .minus {
+    margin-right: 20px;
+}
+
+#order .guest-select .plus {
+    margin-left: 20px;
+}
+
+#order .multiplication,
+#order .result-text,
+#order .result,
+#order .order-button{
+    font-size: 0.875em;
+}
+
+#order .result-text {
+    float: left;
+}
+
+#order .result {
+    float: right;
+}
+
+#order .order-button {
+    margin-top: 10px;
+    display: block;
+    padding: 7px;
+    text-align: center;
+    background-color: #1181d1;
+    color: #fff;
+    font-weight: bold;
+}
+
+#order .order-button:hover {
+    background-color: #588bfe;
+}
+
+#order .date-wrapper {
+    display: inline-block;
+}
+
+#order .date-select {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+#order .date-select .head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#order .date-select .head h4{
+    margin-top: 8px;
+}
+
+#order .date-select .head .arrow:first-child {
+    float: left;
+}
+
+#order .date-select .head .arrow:last-child {
+    float: right;
+}
+
+#order .date-select table {
+    margin: 5px auto 10px;
+}
+
+#order .date  {
+    text-align: right;
+}
+
+#order .date a{
+    text-decoration: underline;
+}
+
+#gallery h3,
+#sight h3 {
+    margin-left: 10px;
+}
+
+#gallery .gallery-item:hover img,
+#sight .sight .sight-item:hover img{
+    border-color: #4fa2dd;
+}
+
+#gallery {
+    padding: 25px 0 0;
+}
+
+#gallery .gallery {
+    margin-top: 25px;
+    height: 180px;
+}
+
+#gallery .gallery-item {
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gallery .gallery-item img{
+    border: 3px solid transparent;
+    height: 100%;
+    width: 100%;
+}
+
+#sight {
+    padding: 25px 0 20px;
+}
+
+#sight h3 {
+    font-weight: 500;
+}
+
+#sight .sight {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#sight .sight .sight-item {
+    vertical-align: top;
+    text-align: center;
+}
+
+#sight .sight .sight-item img{
+    border: 3px solid transparent;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sight .sight .sight-item a {
+    display: block;
+    text-decoration: none;
+}
+
+#sight .sight p {
+    color: #000;
+    padding-top: 0;
+    text-align: center;
+}
+
+.contact p {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+footer .contract {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1181d1;
+    display: inline-block;
+    padding: 3px 40px 7px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer .contract:hover {
+    background-color: #588bfe;
+}
+
+@media screen and (max-width: 767px) {
+    #top-banner {
+        height: 300px;
+    }
+
+    #gallery .gallery{
+        height: 235px;
+    }
+
+    #gallery .gallery-item {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #sight .sight .sight-item {
+        width: 100%;
+    }
+}
+
+.link-owner {
+    margin-bottom: 5px;
+}
+
+.nav-social a{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+
+.developer {
+    padding-top: 0;
+    padding-bottom: 0;
+}
